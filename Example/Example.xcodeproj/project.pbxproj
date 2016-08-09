@@ -13,6 +13,7 @@
 		4C88DCE31D59B966003BB739 /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DCE11D59B966003BB739 /* Example.xcdatamodeld */; };
 		4C88DCE51D59B966003BB739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DCE41D59B966003BB739 /* Assets.xcassets */; };
 		4C88DCE81D59B966003BB739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DCE61D59B966003BB739 /* LaunchScreen.storyboard */; };
+		4CA302CB1D5A486C003654E5 /* CustomViewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4C88DCE41D59B966003BB739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C88DCE71D59B966003BB739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C88DCE91D59B966003BB739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4C88DCDA1D59B966003BB739 /* AppDelegate.swift */,
 				4C88DCDC1D59B966003BB739 /* ViewController.swift */,
+				4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */,
 				4C88DCDE1D59B966003BB739 /* Main.storyboard */,
 				4C88DCE41D59B966003BB739 /* Assets.xcassets */,
 				4C88DCE61D59B966003BB739 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA302CB1D5A486C003654E5 /* CustomViewPlayer.swift in Sources */,
 				4C88DCDD1D59B966003BB739 /* ViewController.swift in Sources */,
 				4C88DCE31D59B966003BB739 /* Example.xcdatamodeld in Sources */,
 				4C88DCDB1D59B966003BB739 /* AppDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				4C88DCEE1D59B966003BB739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
