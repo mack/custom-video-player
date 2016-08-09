@@ -15,7 +15,6 @@ class ViewController: UIViewController {
 
     let player = AVPlayer()
     var previewLayer: AVPlayerLayer?
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
