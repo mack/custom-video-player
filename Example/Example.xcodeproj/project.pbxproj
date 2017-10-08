@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0178DBA51F89A0AE00C4A44A /* EVSVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178DBA41F89A0AE00C4A44A /* EVSVideoPlayer.swift */; };
+		0178DBA71F89A12A00C4A44A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178DBA61F89A12A00C4A44A /* Fonts.swift */; };
 		4C88DCDB1D59B966003BB739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DCDA1D59B966003BB739 /* AppDelegate.swift */; };
 		4C88DCDD1D59B966003BB739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DCDC1D59B966003BB739 /* ViewController.swift */; };
 		4C88DCE01D59B966003BB739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DCDE1D59B966003BB739 /* Main.storyboard */; };
 		4C88DCE31D59B966003BB739 /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DCE11D59B966003BB739 /* Example.xcdatamodeld */; };
 		4C88DCE51D59B966003BB739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DCE41D59B966003BB739 /* Assets.xcassets */; };
 		4C88DCE81D59B966003BB739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DCE61D59B966003BB739 /* LaunchScreen.storyboard */; };
-		4CA302CB1D5A486C003654E5 /* CustomViewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0178DBA41F89A0AE00C4A44A /* EVSVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVSVideoPlayer.swift; sourceTree = "<group>"; };
+		0178DBA61F89A12A00C4A44A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0178DBA81F89A13300C4A44A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		0178DBA91F89A13300C4A44A /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0178DBAA1F89A13300C4A44A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		0178DBAB1F89A13300C4A44A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		0178DBAC1F89A13300C4A44A /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		4C88DCD71D59B966003BB739 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88DCDA1D59B966003BB739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C88DCDC1D59B966003BB739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +33,6 @@
 		4C88DCE41D59B966003BB739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C88DCE71D59B966003BB739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C88DCE91D59B966003BB739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0178DBAD1F89A2C400C4A44A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0178DBA61F89A12A00C4A44A /* Fonts.swift */,
+				0178DBA81F89A13300C4A44A /* OpenSans-Bold.ttf */,
+				0178DBA91F89A13300C4A44A /* OpenSans-ExtraBold.ttf */,
+				0178DBAA1F89A13300C4A44A /* OpenSans-Light.ttf */,
+				0178DBAB1F89A13300C4A44A /* OpenSans-Regular.ttf */,
+				0178DBAC1F89A13300C4A44A /* OpenSans-Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		4C88DCCE1D59B966003BB739 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +80,8 @@
 			children = (
 				4C88DCDA1D59B966003BB739 /* AppDelegate.swift */,
 				4C88DCDC1D59B966003BB739 /* ViewController.swift */,
-				4CA302CA1D5A486C003654E5 /* CustomViewPlayer.swift */,
+				0178DBA41F89A0AE00C4A44A /* EVSVideoPlayer.swift */,
+				0178DBAD1F89A2C400C4A44A /* Fonts */,
 				4C88DCDE1D59B966003BB739 /* Main.storyboard */,
 				4C88DCE41D59B966003BB739 /* Assets.xcassets */,
 				4C88DCE61D59B966003BB739 /* LaunchScreen.storyboard */,
@@ -102,6 +123,7 @@
 				TargetAttributes = {
 					4C88DCD61D59B966003BB739 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -141,9 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA302CB1D5A486C003654E5 /* CustomViewPlayer.swift in Sources */,
+				0178DBA51F89A0AE00C4A44A /* EVSVideoPlayer.swift in Sources */,
 				4C88DCDD1D59B966003BB739 /* ViewController.swift in Sources */,
 				4C88DCE31D59B966003BB739 /* Example.xcdatamodeld in Sources */,
+				0178DBA71F89A12A00C4A44A /* Fonts.swift in Sources */,
 				4C88DCDB1D59B966003BB739 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -274,6 +298,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
