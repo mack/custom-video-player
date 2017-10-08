@@ -6,8 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -25,11 +31,42 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="242"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Space Invaders Trailer (2018)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep4-Ix-RJp">
+                                <rect key="frame" x="16" y="270" width="223" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Exciting new trailer for a movie coming out in the next fe.." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPo-56-qje">
+                                <rect key="frame" x="16" y="296" width="343" height="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrB-P2-PcG">
+                                <rect key="frame" x="16" y="325" width="64" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="rp9-Fc-Oqf"/>
+                                </constraints>
+                                <state key="normal" title="Rent"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzU-82-4Of">
+                                <rect key="frame" x="88" y="325" width="30" height="30"/>
+                                <state key="normal" title="Buy"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="kzU-82-4Of" firstAttribute="top" secondItem="OPo-56-qje" secondAttribute="bottom" constant="8" id="0ZU-Zo-liu"/>
+                            <constraint firstItem="Ep4-Ix-RJp" firstAttribute="top" secondItem="OiS-uT-jDA" secondAttribute="bottom" constant="8" id="8af-mA-kJd"/>
+                            <constraint firstItem="OPo-56-qje" firstAttribute="top" secondItem="Ep4-Ix-RJp" secondAttribute="bottom" constant="5" id="Bcy-9m-WqO"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="nrB-P2-PcG" secondAttribute="leading" id="H6m-pT-Xql"/>
+                            <constraint firstItem="kzU-82-4Of" firstAttribute="leading" secondItem="nrB-P2-PcG" secondAttribute="trailing" constant="8" id="P4L-Rh-MaK"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OiS-uT-jDA" secondAttribute="bottom" constant="405" id="VHn-Qg-G4v"/>
                             <constraint firstItem="OiS-uT-jDA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zm2-OJ-3j2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="OPo-56-qje" secondAttribute="leading" id="iAr-nv-VwZ"/>
+                            <constraint firstItem="nrB-P2-PcG" firstAttribute="top" secondItem="OPo-56-qje" secondAttribute="bottom" constant="8" id="tsJ-EL-tUg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ep4-Ix-RJp" secondAttribute="leading" id="voq-3L-mc3"/>
                             <constraint firstItem="OiS-uT-jDA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="wwx-CG-TGA"/>
                             <constraint firstAttribute="trailing" secondItem="OiS-uT-jDA" secondAttribute="trailing" id="z9S-gA-5sd"/>
                         </constraints>
